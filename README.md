@@ -14,9 +14,10 @@ Welcome to **StreamNotifier**, an OBS Python Script that sends a Discord Webhook
 
 ## Installation
 
-1. **Download the Script**: Download the `stream_notifier.py` file from the repository.
-2. **Add Script to OBS**: In OBS, go to `Tools` > `Scripts`, and then click the `+` button to add the downloaded script.
-3. **Configure Settings**: Configure the webhook URL and other settings as per your needs.
+1. **Install Python 3.11**: StreamNotifier requires Python 3.11 or higher. Install it from the official Python website: [Python Downloads](https://www.python.org/downloads/).
+2. **Install discord_webhook**: Open a terminal or command prompt and run `pip install discord_webhook`.
+3. **Add Script to OBS**: In OBS, go to `Tools` > `Scripts`, and then click the `+` button to add the downloaded script.
+4. **Select Python Directory**: In OBS, go to `Tools` > `Scripts` >`Python`, and set the Python directory to the location of your Python installation where you installed `discord_webhook`.
 
 ## Usage
 
@@ -37,9 +38,22 @@ Welcome to **StreamNotifier**, an OBS Python Script that sends a Discord Webhook
 
 ### Dynamic Fields
 
-You can enable and configure up to 10 custom fields:
-
-- **Field X Title**: The title of the field.
-- **Field X Description**: The description of the field.
+You can enable and configure up to 10 custom fields
 
 Only the next field's checkbox will appear if the current one is enabled, keeping the interface clean and manageable.
+
+## Changelog
+
+### Version 3.0
+
+- **Renamed**: OBScord is now StreamNotifier.
+- **Dynamic Fields**: Added support for up to 10 dynamic fields. Each checkbox for enabling fields appears only if the previous one is active, creating a cleaner and more user-friendly interface.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+---
+
+We hope StreamNotifier enhances your streaming experience by keeping your community engaged with timely and informative Discord notifications. Happy streaming!
+
