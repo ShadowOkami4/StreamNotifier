@@ -23,8 +23,11 @@ Welcome to **StreamNotifier**, an OBS Python Script that sends a Discord Webhook
 
 ### Script Settings
 
+#### Important
 - **Webhook URL**: The URL of your Discord webhook.
+#### Normal Message
 - **Message**: The content of the message to send.
+#### Embed 
 - **Author**: The name of the message author.
 - **Author URL**: A URL for the author (optional).
 - **Author Icon URL**: An icon URL for the author (optional).
