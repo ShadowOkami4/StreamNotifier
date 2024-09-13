@@ -1,7 +1,6 @@
-<img src="https://github.com/ShadowOkami4/StreamNotifier/assets/54201724/039e6e51-f9d7-44cb-971b-47f948c393e5" alt="Logo" width="1000"/>
+<img src="https://github.com/user-attachments/assets/1380dec5-8fcf-48b0-ac96-857b8a442137" alt="Logo" width="1000"/>
 
 
-# StreamNotifier (formerly OBScord)
 
 Welcome to **StreamNotifier**, an OBS Python Script that sends a Discord Webhook Message when you start your stream. This script allows you to customize the message content, author details, and embed various fields and media. We hope you find it useful!
 
