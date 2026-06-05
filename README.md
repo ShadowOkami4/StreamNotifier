@@ -1,4 +1,5 @@
-# StreamNotifier
+<img width="4885" height="1724" alt="project_StreamNotifier" src="https://github.com/user-attachments/assets/8268b679-f6e0-468e-bcf8-de37eadb9e45" />
+
 
 Welcome to **StreamNotifier**, a native OBS Studio plugin that sends Discord
 Webhook Messages from OBS events. Version 4.0 replaces the old Python script
