@@ -1,0 +1,13 @@
+build/
+build-*/
+!build-aux/
+!build-aux/**
+build_*/
+.deps/
+_obs_plugintemplate/
+obs-plugintemplate-master.zip
+dist/
+release/
+*.dll
+*.pdb
+*.user
